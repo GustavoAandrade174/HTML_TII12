@@ -95,23 +95,30 @@ let estaAcessoALuz = true;
 // Substituir as palavras "comida" pelos itens que você quiser comprar no mercado na sua 
 // lista de compras
 
-let listaDeCompras = ["comida", "comida", "comida"];
+let listaDeCompras = ["Arroz", "Feijão", "Açucar"];
 
 
 // inserir dentro de cada aspas, 1 tarefa do seu dia
 
-let listaDeTarefa = ["", "", ""];
+let listaDeTarefa = ["Tirar o lixo", "Fazer comida", "Lavar a louça"];
 
 
 // colocar 3 temperos dentro da lista(array) de temperos, lembre-se que texto tem que 
 // estar dentro de ""  (exemplo: "Sal") e separado do próximo item com "," 
 // (exemplo: "Sal","Alho")
 
-let listaDeTemperos = [];
+let listaDeTemperos = ["Sal","Paprica","Sala"];
 
 
 // declare uma lista (array) com 3 molhos do zero
+let listadeMolhos = ["molho de tomate", "Mostarda","maionese verde"]
 
+
+//Arrays podem receber qualquer tipo de valor, incluindo outras Arrays
+
+let listaMaluca = ["Passas ao rum", 25 , true, ["papel", 40, 50, [20,40], [15,16,17]]]
+
+console.log (listaMaluca[3][4][2])
 
 
 //------------------------------------------------------------
@@ -119,7 +126,10 @@ let listaDeTemperos = [];
 //Objeto: Objeto é como uma ficha (ele guarda valores e a descrição desses valores 
 // (chamados de chave))
 
-//Remova esse comentario e siga o exemplo da aula
+let fichaAlunonova ={nome:"Carlos", nota:7}
+
+console.log(fichaAlunonova.nota)
+
 
 
 // desafios:
@@ -127,19 +137,19 @@ let listaDeTemperos = [];
 // modificar a descrição dos valores (chaves 'x:', 'y:' e 'z:') por 'nome:', 'nota:' e 
 // 'turma:' respectivamente
 
-let fichaAluno = {x: "Giovanne", y: 10, sala:"Sala 20"};
+let fichaAluno = {nome: "Giovanne", nota: 10, turma:"sala 20"};
 
 
 // inserir dentro do valor descrito como 'nome:' o seu nome (exemplo: nome: "Heitor"), 
 // dentro do valor descrito como 'nota:' coloque 10, e dentro do valor descrito 
 // como 'sala:' coloque "31"
 
-let suaFichaAluno = {nome: "", nota: "", sala: ""};
+let suaFichaAluno = {nome: "Giovanne", nota: "7", sala: "sala 15"};
 
 // Inserir no objeto a descrição 'nome:' inserindo o valor dele como o seu nome, 
 // depois colocar a descrição 'sala' inserindo no valor dele a sua sala.
 
-let novaFichaAluno = {};
+let novaFichaAluno = {nome:"Giovanne", Nota: "8", Sala: "sala 25", turma: "tii12"};
 
 
 
