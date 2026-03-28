@@ -22,3 +22,8 @@ for(let i= 0; i<=frutas.length;i++){
     console.log("indice: ", i);
     console;log(frutas[i]);
 }
+
+//percorrendo o array com o método forEach
+frutas.forEach((valor, indice)) => {
+    console.log("Indice", indice, "Fruta:", valor)
+}
